@@ -39,11 +39,11 @@ class _IndexPageState extends State<IndexPage> {
     return SafeArea(
       top: false,
       child: Scaffold(
-        appBar: AppBar(
-          title: const AppBarWidget(),
-          centerTitle: true,
-          backgroundColor: const Color.fromARGB(255, 6, 63, 20),
-        ),
+        // appBar: AppBar(
+        //   title: const AppBarWidget(),
+        //   centerTitle: true,
+        //   backgroundColor: const Color.fromARGB(255, 6, 63, 20),
+        // ),
         bottomNavigationBar: Theme(
           data: Theme.of(
             context,
