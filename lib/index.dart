@@ -5,7 +5,7 @@ import 'package:ui/pages/profilePage.dart';
 import 'package:ui/pages/scannerPage.dart';
 import 'package:ui/pages/searchPage.dart';
 import 'package:ui/pages/settingsPage.dart';
-import 'package:ui/widgets/appbarWidget.dart';
+import 'package:ui/pages/shopPage.dart';
 
 class IndexPage extends StatefulWidget {
   const IndexPage({super.key});
@@ -19,7 +19,7 @@ class _IndexPageState extends State<IndexPage> {
   final GlobalKey<CurvedNavigationBarState> _navigationKey = GlobalKey();
 
   final screens = [
-    HomePage(),
+    ShopPage(),
     SearchPage(),
     ScannerPage(),
     SettingsPage(),
@@ -47,11 +47,11 @@ class _IndexPageState extends State<IndexPage> {
         bottomNavigationBar: Theme(
           data: Theme.of(
             context,
-          ).copyWith(iconTheme: const IconThemeData(color: Colors.white)),
+          ).copyWith(iconTheme: const IconThemeData(color: Colors.black)),
           child: CurvedNavigationBar(
             key: _navigationKey,
-            color: const Color.fromARGB(255, 6, 63, 20),
-            buttonBackgroundColor: const Color.fromARGB(255, 6, 63, 20),
+            color: const Color.fromARGB(255, 29, 84, 42),
+            buttonBackgroundColor: const Color.fromARGB(255, 98, 149, 107),
             height: 60,
             index: _index,
             backgroundColor: Colors.transparent,

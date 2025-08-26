@@ -1,9 +1,12 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:ui/index.dart';
+import 'package:ui/models/shop.dart';
+import 'package:ui/pages/homePage.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(ChangeNotifierProvider(create: (context) => Shop(), child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -21,6 +24,10 @@ class MyApp extends StatelessWidget {
         duration: 1500,
         nextScreen: IndexPage(),
       ),
+      routes: {
+        '/index': (context) => IndexPage(),
+        '/home': (context) => HomePage(),
+      },
     );
   }
 }
