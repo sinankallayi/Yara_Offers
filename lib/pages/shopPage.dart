@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ui/components/my_offer_tile.dart';
 import 'package:ui/models/shop.dart';
+import 'package:ui/pages/offersGallery.dart';
 import 'package:ui/pages/offersPage.dart';
 import 'package:ui/widgets/appbarWidget.dart';
 
@@ -101,7 +102,7 @@ class ShopPage extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => OffersPage()),
+                      MaterialPageRoute(builder: (context) => OffersGallery()),
                     );
                   },
                   style: TextButton.styleFrom(
