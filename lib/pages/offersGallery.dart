@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+import 'package:ui/models/shop.dart';
 import 'package:ui/widgets/fullScreenImageWidget.dart';
 
 class OffersGallery extends StatelessWidget {
@@ -6,6 +9,8 @@ class OffersGallery extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final offers = context.watch<Shop>().shop;
+
     return SafeArea(
       top: false,
       child: Scaffold(
@@ -64,11 +69,15 @@ class OffersGallery extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => FullScreenImageView(
-                              imageProvider: NetworkImage(
-                                'https://picsum.photos/200',
-                              ),
-                            ),
+                            builder: (context) =>
+                                // SfPdfViewer.network(
+                                //   'https://picsum.photos/200',
+                                // ),
+                                FullScreenImageView(
+                                  imageProvider: AssetImage(
+                                    offers[index].imagePath,
+                                  ),
+                                ),
                           ),
                         );
                       },
@@ -76,14 +85,19 @@ class OffersGallery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           Expanded(
-                            child: Image.network(
-                              'https://picsum.photos/200',
+                            child: Image.asset(
+                              offers[index].imagePath,
                               fit: BoxFit.cover,
                             ),
+
+                            // Image.network(
+                            //   'https://picsum.photos/200',
+                            //   fit: BoxFit.cover,
+                            // ),
                           ),
                           const SizedBox(height: 6),
                           Text(
-                            'Image Title ${index + 1}',
+                            '${offers[index].title}',
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
@@ -94,7 +108,7 @@ class OffersGallery extends StatelessWidget {
                       ),
                     ),
                   );
-                }, childCount: 20),
+                }, childCount: offers.length),
               ),
             ),
           ],

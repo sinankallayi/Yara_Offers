@@ -20,16 +20,18 @@ class MyOfferTile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          AspectRatio(
-            aspectRatio: 1,
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.grey[200],
+          Expanded(
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12),
+                  color: Colors.grey[200],
+                ),
+                width: double.infinity,
+                padding: const EdgeInsets.all(10),
+                child: Image.asset(offer.imagePath),
               ),
-              width: double.infinity,
-              padding: const EdgeInsets.all(10),
-              child: Image.asset(offer.imagePath),
             ),
           ),
 

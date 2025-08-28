@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:ui/components/my_brochure.dart';
 import 'package:ui/components/my_offer_tile.dart';
 import 'package:ui/models/shop.dart';
 import 'package:ui/pages/offersGallery.dart';
@@ -129,6 +130,21 @@ class ShopPage extends StatelessWidget {
               },
             ),
           ),
+
+          // Expanded(
+          //   child: SizedBox(
+          //     height: 350,
+          //     child: ListView.builder(
+          //       itemCount: offers.length,
+          //       padding: const EdgeInsets.only(left: 15, right: 15, bottom: 15),
+          //       scrollDirection: Axis.horizontal,
+          //       itemBuilder: (context, index) {
+          //         final offer = offers[index];
+          //         return MyBrochure(offer: offer);
+          //       },
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );

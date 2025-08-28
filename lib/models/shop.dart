@@ -31,6 +31,162 @@ class Shop extends ChangeNotifier {
           'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
       imagePath: 'assets/offer5.jpeg',
     ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
+    Offer(
+      title: 'Flash Sale - Up to 70% Off',
+      description:
+          'Limited time flash sale with discounts up to 70%. Don\'t miss out!',
+      imagePath: 'assets/offer5.jpeg',
+    ),
   ];
 
   List<Offer> get shop => _shop;
