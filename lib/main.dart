@@ -6,6 +6,11 @@ import 'package:ui/models/shop.dart';
 import 'package:ui/pages/homePage.dart';
 
 void main() {
+
+  
+
+
+
   runApp(ChangeNotifierProvider(create: (context) => Shop(), child: MyApp()));
 }
 

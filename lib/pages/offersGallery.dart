@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:ui/models/shop.dart';
 import 'package:ui/widgets/fullScreenImageWidget.dart';
 
